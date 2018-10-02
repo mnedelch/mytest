@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/Seals-dark.png');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+header {
+  margin-top: 15em;
+}
+
+h1 {
+  font-size: 6em;
+  font-weight: 200;
+  margin-bottom: .3em;
+}
+
+h2 {
+  margin: 0 8em;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+nav {
+  padding: 4em;
+  text-align: center;
+}
+
+.actions {
+  display: inline-block;
+  min-width: 315px;
+}
+
+.actions a {
+  border: 1px solid white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: lighter;
+  display: inline-block;
+  width:100%;
+  height:100%;
+}
+.actions a:hover{
+  background-color: white;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  margin-top: 12em;
+  padding: .3em 0;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+#ucop {
+  margin-top: 1.5em;
+}
+#ucop a {
+  text-decoration: none;
+  color: white;
+}
+#ucop a:hover {
+  text-decoration: underline;
+  color: #44ace8;
+}
+.copyright {
+  margin: 1.5em 0;
+}
