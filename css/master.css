@@ -53,15 +53,15 @@ nav {
 }
 
 footer {
+  margin-top: 16em;
   width: 100%;
-  margin-top: 12em;
   padding: .3em 0;
   background-color: black;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
 }
 #ucop {
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 #ucop a {
   text-decoration: none;
@@ -72,5 +72,5 @@ footer {
   color: #44ace8;
 }
 .copyright {
-  margin: 1.5em 0;
+  margin: 1em 0;
 }

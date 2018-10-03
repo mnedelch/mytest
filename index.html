@@ -3,6 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="/css/master.css">
+    <script type="text/javascript">
+      window.onload = function() {
+        document.getElementById("current-year").innerHTML = new Date().getFullYear();
+      }
+    </script>
 		<title>UNIVERSITY OF CALIFORNIA / UC Recruit</title>
 	</head>
 	<body>
@@ -25,7 +30,7 @@
 				<a href="https://www.ucop.edu/">UNIVERSITY OF CALIFORNIA</a>
 			</div>
 			<div class="copyright">
-				Copyright ©&nbsp;2018
+				Copyright ©&nbsp;<span id='current-year'></span>
 			</div>
 		</footer>
 	</body>
